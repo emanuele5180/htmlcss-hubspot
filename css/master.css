@@ -8,6 +8,10 @@
   padding: 0 10%;
 }
 
+p{
+  font-size: 20px;
+}
+
 /* header */
 
 .head-container {
@@ -122,7 +126,7 @@ a {
 
 .centraturatestojumbo {
 padding-right: 50%;
-padding-top: 110px;
+padding-top: 50px;
 }
 
 .jumboelement1 {
@@ -149,5 +153,31 @@ padding-top: 110px;
 }
 
 .jumboelement3 {
+  font-size: 10px;
   padding-top:20px;
+}
+
+
+/* SEZIONE1 */
+
+.sezione1 {
+  width: 100%;
+  height:500px; /*debug*/
+  background-color: rgb(232 246 255);
+}
+
+/*SEZIONE TOP*/
+
+.sezione1-top{
+  text-align: center;
+}
+
+.cube {
+  width: 250px;
+  height: auto;
+  padding: 40px 0 10px 0;
+}
+
+.powerfull {
+  padding-bottom: 20px;
 }
