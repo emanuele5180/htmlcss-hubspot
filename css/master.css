@@ -140,8 +140,8 @@ padding-top: 50px;
 }
 
 .jumboGetHubspotFree {
-  width: 145px;
-  height: 55px;
+  /* width: 145px;
+  height: 55px; */
   background-color:#ff801f;
   padding: 20px;
   border-radius: 5px;
@@ -207,11 +207,12 @@ padding-top: 50px;
 .LearnMore {
   text-align: center;
   background-color:#ff801f;
-  width: 110px;
-  height: 35px;
+  /* width: 110px;
+  height: 35px; */
   padding: 10px;
-  margin-top: 35px;
+  margin-top: 35px */
   border-radius: 5px;
+  display: block;
 
 }
 
@@ -276,6 +277,7 @@ padding-top: 50px;
   clear: both;
   min-height: 600px;
   margin-top: 60px;
+  padding-bottom: 40px;
 }
 
 .colonna1-1-bot {
@@ -333,11 +335,64 @@ padding-top: 50px;
 .uno li {
   display: inline-block;
 }
+.uno i {
+  color: orange;
+}
 
 .due li {
   display: inline-block;
 }
+.due i {
+  color: orange;
+}
 
 .tre li {
   display: inline-block;
+}
+.tre i {
+  color: orange;
+}
+
+
+/*sezione3*/
+
+.sezione2 {
+  width: 100%;
+  height: 600px;  /*debug*/
+  background-color: rgba(2, 163, 150);
+  color: white;
+}
+
+.sezione2-top, h2, p{
+  text-align: center;
+  padding-top: 35px;
+}
+
+.sezione2-part1 {
+  content: "";
+  display:table;
+  clear: both;
+  width: 100%;
+  min-height: 300px;
+  margin-top: 60px;
+  /* padding-bottom: 40px; */
+}
+
+.elementotab1, .elementotab2, .elementotab3, .elementotab4 {
+  float: left;
+  width: 25%;
+  /* height: 150px; */
+  text-align: center;
+  border-bottom: solid 2px white;
+  padding: 30px;
+}
+
+.elementotab2 {
+  border-left: solid 2px white;
+  border-right: solid 2px white;
+
+}
+
+.elementotab3 {
+  border-right: solid 2px white;
 }
