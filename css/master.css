@@ -416,6 +416,7 @@ padding-top: 50px;
   text-align: center;
   /* border-top: solid 2px white; */
   padding: 80px;
+  margin-bottom: 100px;
 }
 
 .elementotab6 {
@@ -426,4 +427,33 @@ padding-top: 50px;
 
 .elementotab7 {
   border-right: solid 2px white;
+}
+
+/*sezione3*/
+
+.sezione3-container {
+  width: 100%;
+  height: 600px;
+  background-color:white;
+
+
+}
+
+.sezione3-top {
+content: "";
+display:table;
+clear: both;
+width: 100%;
+/* min-height: 300px; */
+margin-top: 60px;
+/* padding-bottom: 40px; */
+}
+
+.sezione3left {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 50px;
+  margin-left: 50px;
+
 }
