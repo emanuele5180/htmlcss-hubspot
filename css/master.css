@@ -64,8 +64,17 @@ p{
   display: inline-block;
   padding: 15px 20px 15px 0;
 
-
 }
+
+.fixbar-left li a {
+  color: black;
+}
+
+.fixbar-right li a {
+  color: black;
+}
+
+
 
 .floatfixbar .fixbar-right li{
   height:100%;
@@ -73,7 +82,7 @@ p{
   padding:  15px 0px 15px 20px;     /*da verificare, non va messo il margine a destra dell'ultimo elemento*/
 }
 
-.lente {
+#lente {
   color: rgb(127, 200, 245);
 }
 
@@ -118,6 +127,10 @@ a {
 
 .logonavbar {
   padding-top: 10px;
+}
+
+.navbar-right-items li a {
+  color: black;
 }
 
 
