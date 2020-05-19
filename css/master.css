@@ -133,6 +133,11 @@ a {
   color: black;
 }
 
+#contactus {
+  border-left: solid 1px black;
+  padding-left: 30px;
+}
+
 
 
 /* JUMBOTRON */
